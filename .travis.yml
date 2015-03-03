@@ -1,5 +1,6 @@
 language: java
 notification:
     email:
-    - alfred.samman@motorolasolutions.com
-    on_success: always
+     recipients:
+      - alfred.samman@motorolasolutions.com
+     on_success: always
