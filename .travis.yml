@@ -1,6 +1,1 @@
 language: java
-notification:
-    email:
-     recipients:
-      - alfred.samman@motorolasolutions.com
-     on_success: always
