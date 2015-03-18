@@ -3,7 +3,7 @@ deploy:
   provider: releases
   api_key:
     secure: hdQHZcaXdFUp+axWJeMjnAxI8k3+hYdlKkQgQNtsN2NDUGZv3bKFOXzJqkkGXLcgOjsjWR1egQbjt+BoV0pwDgV26bbT+rhwg/J/5CLy++1d88my7Eb3yMrEHbEi3ITfQ+q8zDkkNFJPVNtPhbUNkniRT3shsE7yJN055W2F5v0=
-  file: "my-app-1.0-SNAPSHOT.jar"
+  file: "target/my-app-1.0-SNAPSHOT.jar"
   skip_cleanup: true
   on:
     tags: true
